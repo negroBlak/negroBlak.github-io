@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LÜXEN - Fashion Redefined</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo-section">
+                <a href="/" class="logo">LÜXEN</a>
+            </div>
+
+            <!-- Main Navigation -->
+            <nav class="main-navigation">
+                <ul class="nav-menu">
+                    <li><a href="#colecciones">Colecciones</a></li>
+                    <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- User Info -->
+            <div class="user-info">
+                <span class="user-greeting">Hola, Admin LÜXEN</span>
+                <i class="fas fa-user"></i>
+                <a href="#admin" class="admin-link" id="adminButton">Admin</a>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">LÜXEN</h1>
+                <p class="hero-tagline">FASHION REDEFINED</p>
+                <p class="hero-year">Establecida en 2025</p>
+                <button class="explore-btn">Explorar Colecciones</button>
+            </div>
+            <div class="control-button">
+                <div class="control-icon">
+                    <span></span>
+                    <span></span>
+                </div>
+                <span class="control-number">00</span>
+            </div>
+        </section>
+
+        <!-- Collections Section -->
+        <section class="collections-section" id="colecciones">
+            <div class="collections-container">
+                <div class="collection-header">
+                    <h2 class="collection-title">Colección <span class="collection-name">Bosque</span></h2>
+                    <div class="real-time-indicator">
+                        <i class="fas fa-bolt"></i>
+                        <span>Actualizado en tiempo real</span>
+                    </div>
+                </div>
+                
+                <div class="products-grid">
+                    <div class="product-card" data-product="chaqueta-forest">
+                        <div class="product-image">
+                            <div class="draft-badge">Borrador</div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="pantalon-verde">
+                        <div class="product-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="camisa-vintage">
+                        <div class="product-image">
+                            <div class="draft-badge">Borrador</div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="camisa-natura">
+                        <div class="product-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="vestido-bosque">
+                        <div class="product-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="zapatos-verde">
+                        <div class="product-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="sobre-nosotros">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2 class="about-title">Sobre <span class="about-brand">LÜXEN</span></h2>
+                    <div class="about-underline"></div>
+                    <p class="about-text">
+                        LÜXEN nació en 2025 con la visión de revolucionar la moda sostenible. Cada colección cuenta una historia única, fusionando la elegancia contemporánea con materiales eco-friendly y procesos artesanales.
+                    </p>
+                    <p class="about-text">
+                        Nuestras colecciones están inspiradas en la naturaleza y diseñadas para el futuro, creando piezas atemporales que trascienden las tendencias.
+                    </p>
+                    <div class="about-metrics">
+                        <div class="metric">
+                            <span class="metric-number">100%</span>
+                            <span class="metric-label">Sostenible</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">2025</span>
+                            <span class="metric-label">Establecida</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder-large">
+                        <div class="placeholder-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section class="community-section">
+            <div class="community-container">
+                <h2 class="community-title">Únete a la <span class="community-accent">Comunidad</span></h2>
+                <p class="community-subtitle">Sé el primero en conocer nuestras nuevas colecciones</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Tu email" class="email-input">
+                    <button class="subscribe-btn">Suscribirse</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">LÜXEN</h3>
+                    <p class="footer-tagline">Redefiniendo la moda desde 2025</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Colecciones</h4>
+                    <ul>
+                        <li><a href="#bosque">Bosque</a></li>
+                        <li><a href="#urbana">Urbana</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#envios">Envíos</a></li>
+                        <li><a href="#devoluciones">Devoluciones</a></li>
+                        <li><a href="#tallas">Guía de Tallas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#sostenibilidad" class="active-link">Sostenibilidad</a></li>
+                        <li><a href="#carreras">Carreras</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 LÜXEN. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admin Panel Modal -->
+    <div class="admin-modal" id="adminModal">
+        <div class="admin-content">
+            <!-- Admin Header -->
+            <div class="admin-header">
+                <div class="admin-header-left">
+                    <h2 class="admin-title">Panel de Administración</h2>
+                    <p class="admin-welcome">Bienvenido, Admin LÜXEN</p>
+                    <div class="admin-status">
+                        <span class="status-text">Cambios en tiempo real para todos los usuarios</span>
+                        <span class="permissions-badge">32 permisos activos</span>
+                    </div>
+                </div>
+                <div class="admin-header-right">
+                    <button class="view-store-btn">Ver tienda</button>
+                    <button class="logout-btn">Cerrar sesión</button>
+                    <button class="close-admin">&times;</button>
+                </div>
+            </div>
+
+            <!-- Admin Navigation -->
+            <div class="admin-nav">
+                <button class="nav-tab active" data-tab="products">
+                    <i class="fas fa-box"></i>
+                    Productos
+                </button>
+                <button class="nav-tab" data-tab="users">
+                    <i class="fas fa-users"></i>
+                    Usuarios
+                </button>
+                <button class="nav-tab" data-tab="config">
+                    <i class="fas fa-video"></i>
+                    Configuración
+                </button>
+                <button class="nav-tab" data-tab="finance">
+                    <i class="fas fa-dollar-sign"></i>
+                    Finanzas
+                    <span class="pro-badge">PRO</span>
+                </button>
+            </div>
+
+            <!-- Dashboard Cards -->
+            <div class="dashboard-cards">
+                <div class="dashboard-card">
+                    <i class="fas fa-eye"></i>
+                    <div class="card-content">
+                        <span class="card-number">6</span>
+                        <span class="card-label">Visibles para clientes</span>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <i class="fas fa-edit"></i>
+                    <div class="card-content">
+                        <span class="card-number">1</span>
+                        <span class="card-label">Borradores</span>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <i class="fas fa-folder"></i>
+                    <div class="card-content">
+                        <span class="card-number">1</span>
+                        <span class="card-label">Archivados</span>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <i class="fas fa-users"></i>
+                    <div class="card-content">
+                        <span class="card-number">3</span>
+                        <span class="card-label">Usuarios</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Management Section -->
+            <div class="product-management" id="products-tab">
+                <div class="section-header">
+                    <h3 class="section-title">Gestión de productos</h3>
+                    <button class="add-product-btn">
+                        <i class="fas fa-plus"></i>
+                        Agregar producto
+                    </button>
+                </div>
+
+                <!-- Products Table -->
+                <div class="products-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                                <th>Colección</th>
+                                <th>Existencias</th>
+                                <th>Estado</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chaqueta Forest</td>
+                                <td>$ 299</td>
+                                <td>Bosque</td>
+                                <td>15</td>
+                                <td><span class="status-badge published">Publicado</span></td>
+                                <td class="action-buttons">
+                                    <button class="action-btn unpublish">Despublicar</button>
+                                    <button class="action-btn archive">Archivar</button>
+                                    <button class="action-btn edit">Editar</button>
+                                    <button class="action-btn delete">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pantalón verde</td>
+                                <td>$ 189</td>
+                                <td>Bosque</td>
+                                <td>23</td>
+                                <td><span class="status-badge published">Publicado</span></td>
+                                <td class="action-buttons">
+                                    <button class="action-btn unpublish">Despublicar</button>
+                                    <button class="action-btn archive">Archivar</button>
+                                    <button class="action-btn edit">Editar</button>
+                                    <button class="action-btn delete">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Camisa Vintage</td>
+                                <td>$ 159</td>
+                                <td>Bosque</td>
+                                <td>5</td>
+                                <td><span class="status-badge draft">Borrador</span></td>
+                                <td class="action-buttons">
+                                    <button class="action-btn publish">Publicar</button>
+                                    <button class="action-btn archive">Archivar</button>
+                                    <button class="action-btn edit">Editar</button>
+                                    <button class="action-btn delete">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pantalón Clásico</td>
+                                <td>$ 199</td>
+                                <td>Urbana</td>
+                                <td>0</td>
+                                <td><span class="status-badge archived">Archivado</span></td>
+                                <td class="action-buttons">
+                                    <button class="action-btn unpublish">Despublicar</button>
+                                    <button class="action-btn unarchive">Desarchivar</button>
+                                    <button class="action-btn edit">Editar</button>
+                                    <button class="action-btn delete">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Camisa Natura</td>
+                                <td>$ 149</td>
+                                <td>Bosque</td>
+                                <td>12</td>
+                                <td><span class="status-badge published">Publicado</span></td>
+                                <td class="action-buttons">
+                                    <button class="action-btn unpublish">Despublicar</button>
+                                    <button class="action-btn archive">Archivar</button>
+                                    <button class="action-btn edit">Editar</button>
+                                    <button class="action-btn delete">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Vestido Bosque</td>
+                                <td>$ 229</td>
+                                <td>Bosque</td>
+                                <td>8</td>
+                                <td><span class="status-badge published">Publicado</span></td>
+                                <td class="action-buttons">
+                                    <button class="action-btn unpublish">Despublicar</button>
+                                    <button class="action-btn archive">Archivar</button>
+                                    <button class="action-btn edit">Editar</button>
+                                    <button class="action-btn delete">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Suéter Verde</td>
+                                <td>$ 179</td>
+                                <td>Bosque</td>
+                                <td>18</td>
+                                <td><span class="status-badge published">Publicado</span></td>
+                                <td class="action-buttons">
+                                    <button class="action-btn unpublish">Despublicar</button>
+                                    <button class="action-btn archive">Archivar</button>
+                                    <button class="action-btn edit">Editar</button>
+                                    <button class="action-btn delete">Eliminar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- User Management Section -->
+            <div class="user-management" id="users-tab" style="display: none;">
+                <div class="section-header">
+                    <h3 class="section-title">Gestión de usuarios</h3>
+                    <button class="add-user-btn">
+                        <i class="fas fa-plus"></i>
+                        Agregar usuario
+                    </button>
+                </div>
+
+                <!-- Users Table -->
+                <div class="users-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Usuario</th>
+                                <th>Correo electrónico</th>
+                                <th>Rol</th>
+                                <th>Permisos</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cliente Usuario</td>
+                                <td>cliente@email.com</td>
+                                <td><span class="role-badge client">Cliente</span></td>
+                                <td>
+                                    <span class="permissions-text">0 permisos</span>
+                                    <button class="view-permissions-btn">Ver</button>
+                                </td>
+                                <td class="action-buttons">
+                                    <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                    <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>María García</td>
+                                <td>maria@email.com</td>
+                                <td><span class="role-badge manager">Gerente Financiero</span></td>
+                                <td>
+                                    <span class="permissions-text">15 permisos</span>
+                                    <button class="view-permissions-btn">Ver</button>
+                                </td>
+                                <td class="action-buttons">
+                                    <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                    <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Contador</td>
+                                <td>carlos@luxen.com</td>
+                                <td><span class="role-badge accountant">Contador</span></td>
+                                <td>
+                                    <span class="permissions-text">8 permisos</span>
+                                    <button class="view-permissions-btn">Ver</button>
+                                </td>
+                                <td class="action-buttons">
+                                    <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                    <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Configuration Section -->
+            <div class="configuration-section" id="config-tab" style="display: none;">
+                <div class="section-header">
+                    <h3 class="section-title">Configuración del sitio</h3>
+                </div>
+
+                <div class="config-content">
+                    <!-- Background Video Section -->
+                    <div class="config-section">
+                        <h4 class="config-subtitle">Vídeo de fondo</h4>
+                        <div class="video-config">
+                            <label class="config-label">URL del vídeo actual</label>
+                            <div class="video-input-group">
+                                <input type="text" class="video-url-input" value="https://example.com/video-fondo.mp4" readonly>
+                                <button class="change-video-btn">
+                                    <i class="fas fa-video"></i>
+                                    Cambiar vídeo
+                                </button>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="default-video" checked>
+                                <label for="default-video">Usando video por defecto</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Status Section -->
+                    <div class="config-section">
+                        <h4 class="config-subtitle">Estado del Vídeo</h4>
+                        <div class="video-status-box">
+                            <div class="status-content">
+                                <i class="fas fa-video"></i>
+                                <span class="status-text">Vídeo por defecto</span>
+                            </div>
+                            <p class="status-description">Los clientes ven el marcador de posición</p>
+                            <div class="status-indicator"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Finance PRO Section -->
+            <div class="finance-section" id="finance-tab" style="display: none;">
+                <div class="section-header">
+                    <h3 class="section-title">Panel Financiero</h3>
+                    <div class="finance-header-right">
+                        <div class="authorized-access">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Acceso autorizado - Datos confidenciales</span>
+                        </div>
+                        <div class="date-range">
+                            <i class="fas fa-calendar"></i>
+                            <span>03/07/2025 - 02/08/2025</span>
+                        </div>
+                        <button class="add-expense-btn">
+                            <i class="fas fa-plus"></i>
+                            Agregar Gasto
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Financial Metrics Cards -->
+                <div class="financial-metrics">
+                    <div class="metric-card income">
+                        <div class="metric-header">
+                            <h4>Ingresos Totales</h4>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="metric-value">0,00 dólares estadounidenses</div>
+                        <div class="metric-detail">0 pedidos completados</div>
+                    </div>
+
+                    <div class="metric-card expenses">
+                        <div class="metric-header">
+                            <h4>Gastos Totales</h4>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="metric-value">0,00 dólares estadounidenses</div>
+                        <div class="metric-detail">Costos operativos</div>
+                    </div>
+
+                    <div class="metric-card profit">
+                        <div class="metric-header">
+                            <h4>Ganancia Neta</h4>
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="metric-value">0,00 dólares estadounidenses</div>
+                        <div class="metric-detail">Margen: 0.0 %</div>
+                    </div>
+
+                    <div class="metric-card average">
+                        <div class="metric-header">
+                            <h4>Valor Promedio</h4>
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="metric-value">0,00 dólares estadounidenses</div>
+                        <div class="metric-detail">Por pedido</div>
+                    </div>
+                </div>
+
+                <!-- Additional Sections -->
+                <div class="finance-additional">
+                    <div class="finance-section-left">
+                        <h4 class="finance-subtitle">Productos Más Vendidos</h4>
+                        <div class="empty-section">
+                            <!-- Content would go here -->
+                        </div>
+                    </div>
+
+                    <div class="finance-section-right">
+                        <h4 class="finance-subtitle">Métodos de pago</h4>
+                        <div class="empty-section">
+                            <!-- Content would go here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sales Chart Section -->
+                <div class="sales-chart-section">
+                    <h4 class="finance-subtitle">Ventas Últimas 7 Días</h4>
+                    <div class="chart-container">
+                        <div class="chart-placeholder">
+                            <!-- Chart would be rendered here -->
+                        </div>
+                        <div class="daily-sales">
+                            <div class="day-sale">
+                                <span class="day">26</span>
+                                <span class="amount">0,00 dólares estadounidenses</span>
+                            </div>
+                            <div class="day-sale">
+                                <span class="day">27</span>
+                                <span class="amount">0,00 dólares estadounidenses</span>
+                            </div>
+                            <div class="day-sale">
+                                <span class="day">28</span>
+                                <span class="amount">0,00 dólares estadounidenses</span>
+                            </div>
+                            <div class="day-sale">
+                                <span class="day">29</span>
+                                <span class="amount">0,00 dólares estadounidenses</span>
+                            </div>
+                            <div class="day-sale">
+                                <span class="day">30</span>
+                                <span class="amount">0,00 dólares estadounidenses</span>
+                            </div>
+                            <div class="day-sale">
+                                <span class="day">31</span>
+                                <span class="amount">0,00 dólares estadounidenses</span>
+                            </div>
+                            <div class="day-sale">
+                                <span class="day">1</span>
+                                <span class="amount">0,00 dólares estadounidenses</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Orders Section -->
+                <div class="recent-orders-section">
+                    <h4 class="finance-subtitle">Pedidos Recientes</h4>
+                    <div class="orders-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>IDENTIFICACIÓN</th>
+                                    <th>Cliente</th>
+                                    <th>Fecha</th>
+                                    <th>Productos</th>
+                                    <th>Total</th>
+                                    <th>Estado</th>
+                                    <th>Pago</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Empty for now -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Recent Expenses Section -->
+                <div class="recent-expenses-section">
+                    <h4 class="finance-subtitle">Gastos recientes</h4>
+                    <div class="expenses-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Categoría</th>
+                                    <th>Descripción</th>
+                                    <th>Monto</th>
+                                    <th>Tipo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Empty for now -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modals -->
+    <!-- Chaqueta Forest Modal -->
+    <div class="product-modal" id="chaqueta-forest-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Chaqueta Forest</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-price">$299</div>
+                    <div class="modal-description">
+                        <p>Chaqueta premium inspirada en la naturaleza del bosque. Fabricada con materiales sostenibles de alta calidad, esta chaqueta combina elegancia y funcionalidad para el aventurero moderno.</p>
+                        <p><strong>Características:</strong></p>
+                        <ul>
+                            <li>Material: Algodón orgánico 100%</li>
+                            <li>Forro interior transpirable</li>
+                            <li>Bolsillos laterales funcionales</li>
+                            <li>Cierre de cremallera suave</li>
+                            <li>Diseño sostenible y eco-friendly</li>
+                        </ul>
+                    </div>
+                    <div class="size-selection">
+                        <label class="size-label">Seleccionar Talla</label>
+                        <div class="size-options">
+                            <button class="size-option" data-size="S">S</button>
+                            <button class="size-option" data-size="M">M</button>
+                            <button class="size-option active" data-size="L">L</button>
+                            <button class="size-option" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="add-to-cart-modal">Agregar al Carrito</button>
+                        <button class="buy-now-modal">Comprar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalón Verde Modal -->
+    <div class="product-modal" id="pantalon-verde-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pantalón Verde</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-price">$189</div>
+                    <div class="modal-description">
+                        <p>Pantalón clásico en tonos verdes inspirados en la naturaleza. Perfecto para cualquier ocasión, desde el día a día hasta eventos especiales.</p>
+                        <p><strong>Características:</strong></p>
+                        <ul>
+                            <li>Material: Lino sostenible</li>
+                            <li>Corte clásico y elegante</li>
+                            <li>Color verde bosque</li>
+                            <li>Bolsillos frontales y traseros</li>
+                            <li>Fabricación artesanal</li>
+                        </ul>
+                    </div>
+                    <div class="size-selection">
+                        <label class="size-label">Seleccionar Talla</label>
+                        <div class="size-options">
+                            <button class="size-option" data-size="28">28</button>
+                            <button class="size-option" data-size="30">30</button>
+                            <button class="size-option active" data-size="32">32</button>
+                            <button class="size-option" data-size="34">34</button>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="add-to-cart-modal">Agregar al Carrito</button>
+                        <button class="buy-now-modal">Comprar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Camisa Vintage Modal -->
+    <div class="product-modal" id="camisa-vintage-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Camisa Vintage</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-price">$159</div>
+                    <div class="modal-description">
+                        <p>Camisa con estilo vintage que combina la elegancia del pasado con la comodidad moderna. Diseño único que nunca pasa de moda.</p>
+                        <p><strong>Características:</strong></p>
+                        <ul>
+                            <li>Material: Algodón vintage premium</li>
+                            <li>Diseño retro con detalles únicos</li>
+                            <li>Cuello clásico</li>
+                            <li>Bolsillo en el pecho</li>
+                            <li>Acabados artesanales</li>
+                        </ul>
+                    </div>
+                    <div class="size-selection">
+                        <label class="size-label">Seleccionar Talla</label>
+                        <div class="size-options">
+                            <button class="size-option" data-size="S">S</button>
+                            <button class="size-option active" data-size="M">M</button>
+                            <button class="size-option" data-size="L">L</button>
+                            <button class="size-option" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="add-to-cart-modal">Agregar al Carrito</button>
+                        <button class="buy-now-modal">Comprar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Camisa Natura Modal -->
+    <div class="product-modal" id="camisa-natura-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Camisa Natura</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-price">$149</div>
+                    <div class="modal-description">
+                        <p>Camisa que celebra la belleza natural con un diseño minimalista y materiales eco-friendly. Perfecta para el estilo de vida consciente.</p>
+                        <p><strong>Características:</strong></p>
+                        <ul>
+                            <li>Material: Bambú orgánico</li>
+                            <li>Diseño minimalista</li>
+                            <li>Color verde naturaleza</li>
+                            <li>Transpirable y suave</li>
+                            <li>Producción sostenible</li>
+                        </ul>
+                    </div>
+                    <div class="size-selection">
+                        <label class="size-label">Seleccionar Talla</label>
+                        <div class="size-options">
+                            <button class="size-option" data-size="S">S</button>
+                            <button class="size-option active" data-size="M">M</button>
+                            <button class="size-option" data-size="L">L</button>
+                            <button class="size-option" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="add-to-cart-modal">Agregar al Carrito</button>
+                        <button class="buy-now-modal">Comprar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vestido Bosque Modal -->
+    <div class="product-modal" id="vestido-bosque-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Vestido Bosque</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-price">$399</div>
+                    <div class="modal-description">
+                        <p>Vestido elegante inspirado en la majestuosidad del bosque. Combina sofisticación con comodidad para ocasiones especiales.</p>
+                        <p><strong>Características:</strong></p>
+                        <ul>
+                            <li>Material: Seda sostenible</li>
+                            <li>Diseño fluido y elegante</li>
+                            <li>Color verde bosque profundo</li>
+                            <li>Detalles artesanales</li>
+                            <li>Perfecto para eventos especiales</li>
+                        </ul>
+                    </div>
+                    <div class="size-selection">
+                        <label class="size-label">Seleccionar Talla</label>
+                        <div class="size-options">
+                            <button class="size-option" data-size="XS">XS</button>
+                            <button class="size-option" data-size="S">S</button>
+                            <button class="size-option active" data-size="M">M</button>
+                            <button class="size-option" data-size="L">L</button>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="add-to-cart-modal">Agregar al Carrito</button>
+                        <button class="buy-now-modal">Comprar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Zapatos Verde Modal -->
+    <div class="product-modal" id="zapatos-verde-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Zapatos Verde</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-price">$249</div>
+                    <div class="modal-description">
+                        <p>Zapatos elegantes en tonos verdes que complementan perfectamente cualquier outfit. Fabricados con materiales sostenibles y máxima comodidad.</p>
+                        <p><strong>Características:</strong></p>
+                        <ul>
+                            <li>Material: Cuero vegetal</li>
+                            <li>Suela de caucho reciclado</li>
+                            <li>Color verde bosque</li>
+                            <li>Máxima comodidad</li>
+                            <li>Fabricación artesanal</li>
+                        </ul>
+                    </div>
+                    <div class="size-selection">
+                        <label class="size-label">Seleccionar Talla</label>
+                        <div class="size-options">
+                            <button class="size-option" data-size="7">7</button>
+                            <button class="size-option" data-size="8">8</button>
+                            <button class="size-option active" data-size="9">9</button>
+                            <button class="size-option" data-size="10">10</button>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="add-to-cart-modal">Agregar al Carrito</button>
+                        <button class="buy-now-modal">Comprar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
